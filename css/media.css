@@ -3,8 +3,28 @@
     nav {
         display: none;
     }
-    /* .fa-sharp {
+    .fa-solid{
         display: block;
-    } */
+    }
+    .container {
+        width: 90%;
+    }
 }
 
+@media (max-width: 1290px) {
+    .container{
+        width: 90%;
+    }
+    
+}
+@media (max-width:935px) {
+    .cards{
+        justify-content: space-around;
+    }
+}
+@media (max-width: 635px) {
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -2,13 +2,18 @@
     max-width: 1240px;
     width: 100%;
     margin: 0 auto;
+    /* border: 1px dotted blue; */
 }
 .header{
     height: 84px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
+.fa-bars{
+    display: none;
+}
+
 nav ul{
     width: 500px;
     display: flex;
@@ -27,10 +32,11 @@ nav ul{
     height: 606px;
     background-image: url("../images/Rectangle\ 1.png");
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
-   justify-content: center;
-   align-items: center;
+    justify-content: center;
+    align-items: center;
  }
  h1{
     color: #FFF;
@@ -54,9 +60,26 @@ nav ul{
     margin-top: 84px;
     margin-bottom: 140px;
     display: flex;
+    /* border: 2px solid blue; */
 }
+.cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    /* border: 2px solid rgb(27, 27, 38); */
+
+}
+.sec{
+    max-width: 925px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .card{
-    width: 235px;
+    max-width: 235px;
+    width: 100%;
 
 }
 h4{
@@ -76,7 +99,7 @@ h3{
     line-height: normal;
     margin-top: 9px;
     }
-p{
+.p{
     color: #636060;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
@@ -86,7 +109,18 @@ p{
     margin-top: 37px;
 }
 .card1{
-    width: 286px;
+    max-width: 286px;
+    margin-bottom: 56px;
+
+}
+p{
+    color: #636060;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 9px;
 }
 h5{
     color: #343232;
@@ -95,4 +129,5 @@ h5{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 23px;
     }
